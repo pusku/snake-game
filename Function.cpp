@@ -1,4 +1,4 @@
-#include"SnakeGame.h"
+#include"Game.h"
 
 int Score = 0;          
 int Add = 15;
@@ -300,7 +300,7 @@ void Mark()
 	Position(90, 28);
 	printf("┃  Score: %d              ┃", Score);
 	Position(90, 29);
-	printf("┃                         ©§");
+	printf("┃                         ┃");
 	Position(90, 30);
 	printf("┗━━━━━━━━━━━━┛");
 }

@@ -18,7 +18,7 @@ void Menu(){
 }
 
 void Start(){
-	GameMenu();
+	Menu();
 	CreateMap();
 	GameGuide();
 	InitSnakeBody();
